@@ -1,11 +1,11 @@
 package trabalho2;
 public class Pecas {
     int emjogo;
-	//se emjogo = 0, a peÁa representa uma casa vazia
-	//se emjogo = 1, a peÁa est· em jogo e È branca
-	//se emjogo = 2, a peÁa est· em jogo e È preta
-	//se emjogo = 3, a peÁa È uma dama branca
-	//se emjogo = 4, a peÁa È uma dama branca
+	//se emjogo = 0, a pe√ßa representa uma casa vazia
+	//se emjogo = 1, a pe√ßa est√° em jogo e √© branca
+	//se emjogo = 2, a pe√ßa est√° em jogo e √© preta
+	//se emjogo = 3, a pe√ßa √© uma dama branca
+	//se emjogo = 4, a pe√ßa √© uma dama branca
     
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21,16 +21,16 @@ public class Pecas {
             return "-";
         }
         if(this.emjogo == 1){
-            return "b";
-        }
-        if(this.emjogo == 2){
-            return "p";
-        }
-        if(this.emjogo == 3){
             return "B";
         }
-        if(this.emjogo == 4){
+        if(this.emjogo == 2){
             return "P";
+        }
+        if(this.emjogo == 3){
+            return "C";
+        }
+        if(this.emjogo == 4){
+            return "Q";
         }
         return "@";
     }
